@@ -1,8 +1,8 @@
 num = input()
 try:
     if num ==num[::-1]:
-        print('The given number is PALINDROME')
+        print('yes')
     else:
-        print('The given number is NOT a palindrome')
+        print('no')
 except:
     print("That's not a valid number, Try Again !")
