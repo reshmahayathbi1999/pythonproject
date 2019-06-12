@@ -1,0 +1,5 @@
+num=int(input())
+x = list(map(int, input().split())) 
+summ=sum(x)
+average=int(summ/num)
+print(average)
