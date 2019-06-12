@@ -1,0 +1,5 @@
+number1=int(input())
+list=input().split()
+minimum1=min(list)
+maximum1=max(list)
+print(minimum1,maximum1)
