@@ -1,0 +1,9 @@
+num1,num2=input().split()
+num1=int(num1)
+num2=int(num2)
+list=list(map(int,input().split()))
+try:
+    list.index(num2)
+    print("yes")
+except:
+    print("no")
