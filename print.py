@@ -1,2 +1,2 @@
-string1=input()
-print(string1)
+stringvalue=input()
+print(stringvalue)
