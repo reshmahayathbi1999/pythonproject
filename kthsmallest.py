@@ -1,0 +1,6 @@
+num1,num2=input().split()
+num1=int(num1)
+num2=int(num2)
+num=list(map(int,input().split()))
+num.sort()
+print(num[num2-1])
