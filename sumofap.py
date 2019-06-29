@@ -1,0 +1,6 @@
+a,d,n=input().split()
+a=int(a)
+d=int(d)
+n=int(n)
+total=(n/2)*(2*a+(n-1)*d)
+print(round(total))
