@@ -1,8 +1,8 @@
-Number = int(input())    
+Number1 = int(input())    
 Reverse = 0    
-while(Number > 0):    
-    Reminder = Number %10    
+while(Number1 > 0):    
+    Reminder = Number1 %10    
     Reverse = (Reverse *10) + Reminder    
-    Number = Number //10    
+    Number1 = Number1 //10    
      
 print(Reverse) 
